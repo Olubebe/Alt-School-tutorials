@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link, Outlet } from 'react-router-dom'
 
-export const Items = () => {
+export default function Items(){
   return (
     <div>
         <h1>Items</h1>
